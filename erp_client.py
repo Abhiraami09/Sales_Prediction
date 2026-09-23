@@ -19,8 +19,8 @@ import requests
 AUTH_URL = "https://n8n.bluelotusx.co/webhook/b3602-claudeAuth"
 DATA_URL = "https://reports.bl360x.com/AIConnectorMCP/api/erp/GetSalesDataForPrediction?FrmDt=2020/07/01&ToDt=2026/09/15"
 
-ERP_USER = os.environ.get("SPNPOP_USER", "Abhiraami.BL")
-ERP_PASSWORD = os.environ.get("SPNPOP_PASSWORD")
+ERP_USER = os.environ.get("SPNPOP_USER", "username")
+ERP_PASSWORD = os.environ.get("password")
 ERP_CCD = os.environ.get("SPNPOP_CCD", "dc")
 
 
