@@ -1,0 +1,5 @@
+﻿.venv/
+__pycache__/
+SPnPOP_outputs/
+start_server.ps1
+.env
